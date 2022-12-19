@@ -1,0 +1,42 @@
+body{
+  background-color: rgb(58, 84, 148);
+}
+* {
+    font-family: sans-serif;
+    box-sizing: border-box;
+  }
+  a {
+    text-decoration: none;
+    transition: 0.2s ease;
+    color: #3f75c5;
+  }
+  a:hover {
+    opacity: 0.7;
+  }
+  p {
+    font-style: italic;
+  }
+  input, textarea, button {
+    padding: 10px;
+    display: block;
+    min-height: 30px;
+    width: 250px;
+    margin-bottom: 10px;
+  }
+  button {
+    text-transform: uppercase;
+    font-weight: bold;
+    cursor: pointer;
+  }
+  form{
+    width: 400px;
+  }
+.container {
+  display: block;
+}
+.row {
+  display: flex;
+}
+.col{
+  padding: 30px;
+}
